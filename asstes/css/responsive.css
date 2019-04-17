@@ -1,21 +1,23 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  body{
-      color: green
+  html, body{
+      color: green;
+      overflow: hidden;
   }
     
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-    body{
-        color: red
+    html, body{ 
+        overflow: hidden;
     }
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
-    body{
-        color: yellow
+    html, body{
+        color: yellow;
+        overflow: scroll
         
     }
 
@@ -54,6 +56,8 @@
 
     .about-content {
         text-align: center;
+        height: initial;
+        padding: 80px 0;
     }
 
     .contact-content{

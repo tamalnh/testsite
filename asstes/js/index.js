@@ -10,10 +10,7 @@ $( document ).ready(function() {
   
     Scrollbar.init(document.querySelector('.project-content'));
 
-    $('html, body').css({
-        overflow: 'hidden',
-        height: '100%'
-    });
+
 
 
    setInterval(function(){
