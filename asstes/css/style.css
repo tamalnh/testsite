@@ -1,0 +1,245 @@
+a{
+    text-decoration: none;
+    color: #D47072;
+    transition: .3s ease-in-out;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit
+}
+
+h1,h2,h3,h4,h5,h6{ 
+    margin: 0;
+    font-weight: 700;
+}
+
+html,body{
+    height: 100%;
+}
+body{ 
+    font-family: 'Montserrat', sans-serif;
+    color: #C0C0C0;
+    line-height: 2;
+    font-size: 16px;
+    background: #282630; 
+}
+
+
+.app {
+    height: 100%;
+    position: relative;
+}
+
+
+.header-nav {
+    padding: 12px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: #282630;
+    top: 0;
+    left: 0;
+}
+
+.header-nav a.logo {
+    padding: 7px 0;
+    display: inline-block;
+}
+
+ul.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.main-menu li {
+    display: inline-block;
+}
+
+ul.main-menu li a {
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+ul.main-menu li a:last-child {
+    padding-right: 0;
+}
+
+.home-slide {
+    height: 100%;
+}
+
+.particles{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .4;
+}
+
+.welcome-content {
+    display: flex;
+    height: 100%;
+    align-items: center; 
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.welcome-content span {
+    color: #D47072;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+div.buttons-wrap{
+    text-align: right;
+    margin-top: 30px;
+}
+
+ 
+
+a.default-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 9px;
+    padding-right: 45px;
+    font-weight: 500;
+}
+
+a.cv-button {
+    position: relative;
+    font-size: 18px;
+    z-index: 1;
+}
+
+a.cv-button:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 40px;
+    border: 1px solid #D37072;
+    top: 0;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+a.cv-button:hover:before {
+    left: 0;
+}
+
+/*about slide*/
+.about-slide {
+    height: 100%; 
+}
+
+.about-content {
+    height: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+.about-content a {
+    display: inline-block;
+    text-transform: uppercase; 
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+.about-content a span {
+    margin-left: 15px;
+    background: #222;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+/*project*/
+div.project-slide {
+    height: 100%;
+    padding: 80px 0
+}
+.project-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.single-project-slide {
+    padding: 10px 0;
+    margin: 30px 0;
+}
+
+.single-project-slide:last-child {
+    margin-bottom: 60px;
+}
+
+.single-project-slide p {
+    margin: 25px 0;
+    padding-left: 50px;
+}
+
+.single-project-slide a {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.project-button a {
+    padding: 6px 20px;
+    box-sizing: border-box;
+    border: 1px solid #D47072;
+    color: #C0C0C0;
+    font-size: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+
+/*contact*/
+.contact-slide{
+    height: 100%;
+}
+.contact-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content h2 {
+    font-weight: 300;
+    font-size: 100px;
+}
+
+.contact-item.social-links a{
+display: block;
+}
+
+/*footer*/
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 9;
+    background: #282630;
+}
+ul.social-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.social-nav li {
+    display: inline-block;
+}
+
+ul.social-nav li a {
+    display: block;
+    padding: 10px 15px;
+}
