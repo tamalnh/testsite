@@ -1,8 +1,86 @@
- 
-@media (min-width: 576px) {  }
- 
-@media (min-width: 768px) {   }
- 
-@media (min-width: 992px) {   }
- 
-@media (min-width: 1200px) {  }
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  body{
+      color: green
+  }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    body{
+        color: red
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    body{
+        color: yellow
+        
+    }
+
+    .welcome-content {
+        text-align: center;
+    }
+    
+    div.buttons-wrap {
+        text-align: center;
+    }
+
+    .header-nav a.logo{
+        display: block;
+        text-align: center !important;
+    }
+
+    ul.main-menu{
+        text-align: center;
+    }
+    ul.main-menu li a{
+        font-size: 12px;
+        padding: 10px 5px
+    }
+
+    .about-content img {
+        margin-bottom: 30px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .contact-content{
+        text-align: center;
+    }
+
+    .contact-content h2 {
+        font-size: 60px;
+    }
+    
+    ul.social-nav{
+        text-align: center;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    body{
+        color: mediumblue
+    }
+
+
+    .about-content {
+        text-align: center;
+    }
+    
+    
+    .contact-item {
+        margin-bottom: 30px;
+    }
+    
+    .contact-content h2 {
+        font-size: 65px;
+    }
+    
+    .single-project-slide {
+        padding: 15px;
+    }
+}
