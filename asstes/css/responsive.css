@@ -1,76 +1,83 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  html, body{
-      color: green;
-      overflow: hidden;
-  }
-    
+
+    body {
+        color: green
+    }
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-    html, body{ 
-        overflow: hidden;
+    body {
+        color: yellow
     }
-    
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
-    html, body{
-        color: yellow;
-        overflow: scroll
-        
+    body {
+        color: red
     }
 
-    .welcome-content {
-        text-align: center;
-    }
 
-    a.cv-button{
-        font-size: 14px; 
-        padding: 5px;
-    }
-    a.default-btn {
-        padding-right: 30px
-    }
     
-    div.buttons-wrap {
-        text-align: center;
-    }
-
-    .header-nav a.logo{
-        display: block;
-        text-align: center !important;
-    }
-
-    ul.main-menu{
-        text-align: center;
-    }
-    ul.main-menu li a{
-        font-size: 12px;
-        padding: 10px 5px
-    }
-
-    .about-content img {
-        margin-bottom: 30px;
-    }
-
-    .about-content {
-        text-align: center;
-        height: initial;
-        padding: 80px 0;
-    }
-
-    .contact-content{
-        text-align: center;
-    }
-
-    .contact-content h2 {
-        font-size: 60px;
-    }
-    
-    ul.social-nav{
-        text-align: center;
-    }
+.header-nav a.logo {
+    display: block;
+    text-align: center;
+  }
+  ul.main-menu {
+    text-align: center;
+  }
+  .welcome-content {
+    text-align: center;
+    font-size: 25px;
+  }
+  div.buttons-wrap {
+    text-align: center;
+  }
+  .home-slide {
+  }
+  a.default-btn {
+    padding: 6px 8px 6px 10px;
+    font-size: 15px;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .about-slide {
+    /*! margin: 52px 0; */
+  }
+  .about-content img {
+    height: 200px;
+    margin-bottom: 25px;
+  }
+  .project-content {
+    text-align: center;
+  }
+  .single-project-slide p {
+    padding-left: 0;
+    font-size: 14px;
+  }
+  .single-project-slide a {
+    font-size: 17px;
+  }
+  .default-btn {
+  }
+  .single-project-slide a {
+    font-size: 14px;
+  }
+  .about-content.utils {
+  }
+  .contact-content h2 {
+    font-size: 69px;
+  }
+  .contact-content {
+    text-align: center;
+  }
+  .contact-item {
+    margin-bottom: 20px;
+  }
+  ul.social-nav {
+    text-align: center;
+  }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -78,27 +85,4 @@
         color: mediumblue
     }
 
-    ul.main-menu li a{
-        font-size: 13px;
-        padding: 10px
-    }
-
-
-    .about-content { 
-        padding: 80px 0;
-        text-align: center;
-    }
-    
-    
-    .contact-item {
-        margin-bottom: 30px;
-    }
-    
-    .contact-content h2 {
-        font-size: 65px;
-    }
-    
-    .single-project-slide {
-        padding: 15px;
-    }
 }
